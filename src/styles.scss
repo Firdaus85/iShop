@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
+$primary-color: #343a40 ;
+
+body{
+  padding-top: 80px;
+}
+.list-group-item.active {
+  background-color: $primary-color ;
+  border-color: $primary-color ;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: $primary-color;
+  border-color: $primary-color;
+}
+.btn-primary:disabled {
+  color: #fff;
+  background-color: $primary-color;
+  border-color: $primary-color;
+}
+.btn-primary {
+  color: #fff;
+  background-color: $primary-color;
+  border-color: $primary-color;
+}
+a {
+  color: $primary-color;
+  text-decoration: none;
+  background-color: transparent;
+}
+.btn-primary {
+  color: #fff;
+  background-color: $primary-color;
+  border-color: $primary-color;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+
+}
+.btn-sm, .btn-group-sm > .btn {
+  padding: 1.25rem 1.5rem;
+  font-size: 0.875rem;
+  line-height: 5.5;
+  border-radius: 0.2rem;
+  margin-left: 15rem;
+}
+.card{
+  line-height: 4.5;
+  border-style: none;
+
+}
